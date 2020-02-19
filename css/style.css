@@ -17,6 +17,7 @@ font-family: 'Raleway', sans-serif;
 	-webkit-background-size: 100%;
 	-o-background-size: 100%; 
 	background-size: 100%;
+	background-attachment: fixed;
 }
 
 .logo {
@@ -298,6 +299,7 @@ margin-right: 20px;
 	background-repeat: no-repeat;
 	margin-top: 50px;
 	width: 100%;
+	background-attachment: fixed
 }
 
 .box p {
@@ -392,7 +394,7 @@ footer {
 	background: #4b4d4d;
 }
 
-.icons {
+.icons_footer {
 	color: #cccece;
 	font-size: 35px;
 	margin-top: 50px;
@@ -400,7 +402,7 @@ footer {
 	margin-bottom: 30px;
 }
 
-.icons:hover {
+.icons_footer:hover {
 	color: #a691dd;
 	transition: 1s;
 	text-align: center;
@@ -413,3 +415,14 @@ footer {
 }
 
 /**/
+.layer-3-inner {
+	position: absolute;
+	width: 90px;
+	opacity: 40%;
+}
+
+.layer-2-inner {
+	position: absolute;
+	width: 90px;
+	opacity: 40%;
+}
